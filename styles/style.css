@@ -1,0 +1,122 @@
+form {
+				/* Just to center the form on the page */
+				margin: 0 auto;
+				width: 400px;
+				/* To see the outline of the form */
+				padding: 1em;
+				border: 1px solid #ccc;
+				border-radius: 1em;
+			}
+
+			form li + li {
+				margin-top: 1em;
+			}
+
+			label {
+				/* To make sure that all labels have the same size and are properly aligned */
+				display: inline-block;
+				width: 90px;
+				text-align: right;
+			}
+
+			input,
+			textarea {
+				/* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+				font: 1em sans-serif;
+				/* To give the same size to all text fields */
+				width: 300px;
+				box-sizing: border-box; /* To harmonize the look & feel of text field border */
+				border: 1px solid #999;
+			}
+
+			input:focus,
+			textarea:focus {
+				/* To give a little highlight on active elements */
+				border-color: #000;
+			}
+
+			textarea {
+				/* To properly align multiline text fields with their labels */
+				vertical-align: top;
+				/* To give enough room to type some text */
+				height: 5em;
+			}
+
+			.button {
+				/* To position the buttons to the same position of the text fields */
+				padding-left: 90px;
+				/* same size as the label elements */
+			}
+
+			button {
+				/* This extra margin represent roughly the same space as the space between the labels and their text fields */
+				margin-left: 0.5em;
+			}
+
+/*p {
+  color: red;
+  width: 700px;
+  border: 1px solid black;
+}*/
+
+/* nav { 
+	color: black;
+	width: 700px;
+	/* border: 3px solid red; */
+	/* border-bottom: 2px solid purple; */
+	/* border-top: 5px solid blue; */
+	/* border-top-style: dotted; 
+}*/
+
+main {
+	margin-left: 20px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:rgb(0,96,136);
+  }
+  
+nav li {
+	float: left;
+	font-size: xx-large;
+
+  }
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+	background-color: #111;
+  }
+  Active/Current Navigation Lin
+
+aside {
+	background-color: whitesmoke;
+}
+
+/* ul, ol {
+	background-color: pink;
+} */
+/* a:hover {
+	color: rgb(231, 18, 18);
+	 border-top: double;
+} */
+img[src] {
+	background-color: black;
+}
+html {
+	font-family: 'Open Sans', sans-serif
+}
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: black;
+}
